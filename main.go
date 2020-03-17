@@ -55,7 +55,6 @@ func registerUser(w http.ResponseWriter, r *http.Request) {
 
 	}
 	// err = db.DB.QueryRow("SELECT username, password FROM user WHERE username=?", user.Username).Scan(&databaseUsername, &databasePassword)
-
 	// if err != nil {
 	// 	fmt.Println(err)
 	// 	return
